@@ -1,11 +1,11 @@
 deployment:
   replicas: 2
   image:
-    owner: memathesh
+    owner: salagarsprabu
     repository: pythonflaskapp
     tag: a796ff29e06156b0afe787596f3df046556ab4cf
   container:
-    name: pythonflaskapp
+    name: python-flask-app-cont
     port: 80
 service:
   type: NodePort
