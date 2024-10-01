@@ -3,7 +3,7 @@ deployment:
   image:
     owner: senthil123
     repository: pythonflaskapp
-    tag: a796ff29e06156b0afe787596f3df046556ab4cf
+    tag: 70754f454a256d3bb7a73aeef07f4f96dad46f69
   container:
     name: python-flask-app-cont
     port: 80
